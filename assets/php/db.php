@@ -1,9 +1,9 @@
 <?php
 // Paramètres de connexion
 $host = 'localhost';
-$dbname = 'fqdbhzuh_autocompletion';
-$username = 'fqdbhzuh_n0NAq79EJ';
-$password = 'tNvTEkztxMnhMWtURtBHPvB5EHROYGBf';
+$dbname = 'searcher';
+$username = 'root';
+$password = '';
 // Connexion à la base de données
 try {
 
