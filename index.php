@@ -9,7 +9,11 @@ require_once 'includes/header.php';
 
             <div class="col-md-6 mt-5">
                 
-                <h1 class="text-center text-white mb-3">Les arbres de Provence</h1>
+                <h1 class="text-center text-white mb-5">LES ARBRES DE PROVENCE</h1>
+                <h2 class="text-center text-sky">Module de recherche avec autocompletion</h2>
+                <h3 class="text-center text-white"><em>en Javascript</em></h3>
+
+                <p>Saisissez un de ces arbres dans la barre de recherche ci-dessous afin de tester le module. L'autocompletion vous aidera à trouver rapidement l'arbre recherché. La première liste délivre les mots dans l'odre des lettres saisies, la seconde liste donne des résultats contenant les lettres saisies. (En bonus vous obtiendrez des informations supplémentaires sur chacun de ces arbres)</p>
 
                 <form class="d-flex" method="get" action="recherche.php">
                     <input id="search" class="form-control me-sm-2" type="text" name="search" placeholder="Rechercher...">

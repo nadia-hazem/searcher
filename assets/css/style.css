@@ -3,31 +3,72 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 { color: white;}
+h1, h2, h3, h4, h5, h6 { 
+    color: white;
+    font-weight: 600;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.75);
+}
 
 th { color: #002E56;}
 
-a { color: white;}
+a { color: #A3D8EA;}
 
-a:hover { color: #002E56;}
+p { 
+    font-size: 1.1rem;
+    color: #ffffff;
+}
 
-.text-info { color: #002E56!important;}
+a:hover { color: #ffffff;}
 
-.fas, .fa { padding-right: 0.5rem;}
+.text-info { color: #ffffff!important;}
+
+.text-sky { 
+    color: #A3D8EA!important; 
+}
+
+.fas, .fa .fab{ 
+    padding-right: 0.5rem;
+    color: #ffffff;
+}
+
 li {
     list-style-type: none;
     color: #002E56;
     font-weight: 600;
 }
-.card {
-    --bs-card-border-width: 0;
+
+main {
+    flex: 1;
+    padding: 2rem; 
+    margin-top: 5rem;
 }
+
+header.header {
+    position: fixed;
+    width: 100%;
+}
+
 .navbar {
     --bs-navbar-toggler-focus-width: 0.1rem;
 }
+
+.nav-link:hover {
+    color: #A3D8EA!important;
+}
+
+.card {
+    --bs-card-border-width: 0;
+}
+
+.card-header {
+    background-color: #23365D;
+}
+
 .blueimg {
     background: url(../img/blue.jpg) no-repeat bottom center;
 }
+
 .bg-herb {
     background: #507B90!important;
 }
+

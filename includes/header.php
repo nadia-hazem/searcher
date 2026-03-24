@@ -12,16 +12,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
     <!-- Fontawesome kit -->
-    <script src="https://kit.fontawesome.com/a05ac89949.js" crossorigin="anonymous"></script>
-    
+    <script src="https://kit.fontawesome.com/32248eb0b6.js" crossorigin="anonymous"></script>    
     <!-- CSS style -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 
     <!-- JS script -->
     <script type="text/javascript" src="script.js"></script>
 
     <!-- favicon -->
-    <link rel="shortcut icon" type="image/png" href="/autocompletion/assets/img/favicon.png"/>    
+    <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png"/>    
 
     <title><?= $title ?></title>
 
@@ -29,10 +28,10 @@
 
 <body class="d-flex flex-column min-vh-100">
 
-    <header>
+    <header class="header">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid justify-content-between">
-                <img src="assets/img/tree.svg" alt="logo" width="30" height="24" class="d-inline-block align-text-top">
+                <img src="assets/img/tree.svg" alt="logo" width="30" height="24" class="d-inline-block align-text-top pr-2">
                 <a class="navbar-brand pl-5" href="index.php">Les arbres de Provence</a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmobile" aria-controls="navbarmobile" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,16 +54,13 @@
                 <section class="m-1">
 
                     <!-- Linkedin -->
-                    <a class="btn btn-outline-light btn-floating align-middle" href="https://www.linkedin.com/in/pictelle/" target="_blank" role="button" title="Mon LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="align-middle" href="https://www.linkedin.com/in/pictelle/" target="_blank" title="Mon LinkedIn"><i class="fab fa-linkedin-in"></i></a>
 
                     <!-- Github -->
-                    <a class="btn btn-outline-light btn-floating align-middle" href="https://github.com/nadia-hazem" target="_blank" role="button" title="Mon GitHub"><i class="fab fa-github"></i></a>
+                    <a class="align-middle" href="https://github.com/nadia-hazem" target="_blank" title="Mon GitHub"><i class="fab fa-github"></i></a>
 
                     <!-- Wordpress -->
-                    <a class="btn btn-outline-light btn-floating align-middle" href="https://pictelle.com" target="_blank" role="button"><i class="fab fa-wordpress" title="Mon WordPress"></i></a>
-
-                    <!-- Resume -->
-                    <a class="btn btn-outline-light btn-floating align-middle" href="https://nadia-hazem.students-laplateforme.io/" target="_blank" role="button" title="CV/Resume"><i class="fas fa-file"></i></a>
+                    <a class="align-middle" href="https://pictelle.fr" target="_blank" title="Site Web"><i class="fa-solid fa-globe"></i></a>
 
                 </section>
                 <!-- /Section Social media -->
